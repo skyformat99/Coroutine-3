@@ -1,9 +1,8 @@
-#ifndef __CR_H__
-#define __CR_H__
+#ifndef __COROUTINE_H__
+#define __COROUTINE_H__
 
 #include <ucontext.h>
 #include <vector>
-#include <functional>
 
 #define STACK_SIZE (1024*1024)
 class Coroutine;
